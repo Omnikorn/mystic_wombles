@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: beige;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 4fr;
+}
+
+#dog {
+    grid-column: 2/4;
+    width: 50%;
+    height: 500px;
+    overflow: hidden;
+}
+
+#dog img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+    
+
+header #right_title h1 {
+    color: red;
+    font-family: 'Rubik Pixels', cursive;
+    font-size: 8em;
+}
+
+header #right_title h4{
+    color: blue;
+}
