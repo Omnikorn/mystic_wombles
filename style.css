@@ -24,10 +24,13 @@ header{
 
 header #right_title h1 {
     color: red;
-    font-family: 'Rubik Pixels', cursive;
-    font-size: 8em;
+    /*font-family: 'Rubik Pixels', cursive;*/
+    font-family: 'Press Start 2P', cursive;
+    font-size: 6.5em;
+    text-shadow: 10px 6px blue;
 }
 
 header #right_title h4{
     color: blue;
+    font-size: 2.3em;
 }
