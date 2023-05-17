@@ -65,4 +65,13 @@ switch (month){
                 fortune=["today use your deep intuition to solve a lingering problem", "today you might struggle to wrap your head around a certain problem","today you are full of fuzzy energy","today you should give every doggie you see a treat","today you will be the reigning drama queen"]
                 break;
 }
+
+const f1 = features[Math.floor(Math.random()*10)];
+const f2 = features[Math.floor(Math.random()*10)];
+const f3 = features[Math.floor(Math.random()*10)];
+const whatsHappening = fortune[Math.floor(Math.random()*5)]
+
+const story =`Hi ${user} the Mighty Wombles thinks you are ${f1} , ${f2} and ${f3}. He thinks ${whatsHappening} `
+
+console.log(story)
 }
