@@ -1,15 +1,16 @@
 body {
-    background-color: black;
+    background-color: rgb(13,11,14);
     color: beige;
 }
 
 header{
     display: grid;
+    width: 100%;
     grid-template-columns: 4fr;
 }
 
 #dog {
-    grid-column: 2/4;
+    grid-column: 3/4;
     width: 50%;
     height: 500px;
     overflow: hidden;
@@ -33,4 +34,13 @@ header #right_title h1 {
 header #right_title h4{
     color: blue;
     font-size: 2.3em;
+    font-family: "Courier New";
+
 }
+
+main {
+    display: flex;
+    font-size: 1.1rem;
+
+}
+

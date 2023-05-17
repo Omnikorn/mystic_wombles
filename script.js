@@ -8,10 +8,11 @@ let user=""
 let month=""
 
 //console.log(`the name is ${name}`)
-
+let button = document.getElementById("button")
 function processForm (){
      user = document.getElementById("name").value  
      month = document.getElementById("month").value
+
  
 let features =[]
 let fortune=[]
@@ -75,3 +76,5 @@ const story =`Hi ${user} the Mighty Wombles thinks you are ${f1} , ${f2} and ${f
 
 console.log(story)
 }
+
+button.onclick = processForm ()
