@@ -39,8 +39,34 @@ header #right_title h4{
 }
 
 main {
-    display: flex;
+    border-top: 30px;
+    /*display: flex;*/
     font-size: 1.1rem;
 
 }
 
+
+form {
+    display: flex;
+    justify-content: space-between;
+    border: red 2px solid;
+}
+
+ #con1 {
+
+}
+
+#con2 {
+    
+}
+
+#button {
+    background-color: blue;
+    color: beige;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+#fortune h3{
+border-top: 50px;
+}
